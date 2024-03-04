@@ -31,12 +31,12 @@ function Items({ currentItems }) {
               </h3>
             </div>
             <Button
-              className="text-[#3749bb] bg-[#F1F3F5]"
+              className="text-[#3749bb] bg-[#d2d4d6] hover:text-[white] hover:bg-[#3749bb] duration-300"
               btnText="Buy Now"
               iconName={<FaShoppingCart />}
             />
             <Button
-              className="text-[#111] bg-[#C4C4C4] mt-3 "
+              className="text-[#111] hover:bg-[#C4C4C4] mt-3 duration-300"
               btnText="Add to Compare"
               iconName={<MdAddBox />}
             />
