@@ -3,6 +3,7 @@ import Container from "./layout/Container";
 import Navber from "./Navber";
 import Title from "./layout/Title";
 import Pagination from "./layout/Pagination";
+import Header from "./Header";
 
 const ProductPage = () => {
   let [showNumber, setShowNumber] = useState(20);
@@ -12,6 +13,7 @@ const ProductPage = () => {
   };
   return (
     <div>
+      <Header />
       <Container>
         <Navber />
         <Title />
@@ -19,7 +21,7 @@ const ProductPage = () => {
       <div className="bg-[#F2F4F8]">
         <Container>
           <div className="relative pt-8 pb-14">
-            <div className="flex justify-between mb-14 py-2.5 shadow-lg px-5">
+            <div className="flex justify-between items-center mb-14 py-2.5 shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px]  px-5">
               <h1 className="font-bold text-base text-black">HP</h1>
               <div className="flex justify-end gap-x-5">
                 <form className="w-[105px] flex justify-between items-center">

@@ -93,7 +93,8 @@ const Pagination = ({ itemsPerPage }) => {
         nextLinkClassName="page-link"
       />
       <p className=" text-sm text-[#111] absolute right-0 bottom-[63px]">
-        Showing {itemOffset} to {endOffset} of {items.length}
+        Showing {itemOffset + 1} to {endOffset} of {items.length} ({pageCount}{" "}
+        Pages)
       </p>
     </>
   );
